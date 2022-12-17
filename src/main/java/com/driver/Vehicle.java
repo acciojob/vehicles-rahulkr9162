@@ -4,9 +4,9 @@ public class Vehicle {
 
     private String name;
 
-    public String getName() {
-        return name;
-    }
+//    public String getName() {
+//        return name;
+//    }
 
     private int currentSpeed;
     private int currentDirection;
