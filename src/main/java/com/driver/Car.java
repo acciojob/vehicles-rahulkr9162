@@ -3,6 +3,7 @@ package com.driver;
 public class Car extends Vehicle {
     private int wheels;
     private String type;
+    private String name;
     private int doors;
     private int gears;
     private boolean isManual;
@@ -41,7 +42,7 @@ public class Car extends Vehicle {
 
     public Car(String name, int wheels, int doors, int gears, boolean isManual, String type, int seats) {
         //Hint: Car extends Vehicle
-        super(name);
+        this.name = name;
         this.wheels = wheels;
         this.doors = doors;
         this.gears = gears;

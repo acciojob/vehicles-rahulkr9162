@@ -14,6 +14,10 @@ public class Vehicle {
         return this.currentDirection;
     }
 
+    public Vehicle(){
+
+    }
+
     public Vehicle(String name) {
         this.name = name;
         this.currentSpeed = 0;
